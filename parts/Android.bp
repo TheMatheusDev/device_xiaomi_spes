@@ -10,7 +10,7 @@ android_app {
 
     static_libs: [
         "androidx.core_core",
-        "org.pixelexperience.settings.resources",
+        "org.lineageos.settings.resources",
         "SettingsLib",
     ],
 

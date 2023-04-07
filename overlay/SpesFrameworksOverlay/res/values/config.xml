@@ -291,6 +291,26 @@
          will be used. -->
     <integer name="config_burnInProtectionMaxRadius">70</integer>
 
+    <!-- If this is true, the screen will come on when you plug/unplug usb/power/whatever. -->
+    <bool name="config_unplugTurnsOnScreen">true</bool>
+
+    <!-- Whether camera shutter sound is forced or not  (country specific). -->
+    <bool name="config_camera_sound_forced">false</bool>
+
+    <!-- Flag specifying whether VoLTE is available on device -->
+    <bool name="config_device_volte_available">true</bool>
+
+    <!-- Flag specifying whether VT is available on device -->
+    <bool name="config_device_vt_available">true</bool>
+
+<!-- Flag specifying whether VoLTE & VT should be available for carrier: independent of
+      carrier provisioning. If false: hard disabled. If true: then depends on carrier
+      provisioning, availability etc -->
+    <bool name="config_carrier_volte_available">true</bool>
+
+    <!-- Screen off delay -->
+    <integer name="config_screen_off_delay">0</integer>
+
     <!-- Specifies the minimum burn-in offset horizontally. -->
     <integer name="config_burnInProtectionMinHorizontalOffset">-15</integer>
 

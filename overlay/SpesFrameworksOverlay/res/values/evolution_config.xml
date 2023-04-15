@@ -11,6 +11,7 @@
     <string name="config_oemFastChargerStatusPath" translatable="false">/sys/class/power_supply/bms/fastcharge_mode</string>
 
     <!-- Smart charging -->
+    <bool name="config_smartChargingAvailable">true</bool>
     <integer name="config_smartChargingBatteryLevel">80</integer>
     <integer name="config_smartChargingBatteryResumeLevel">75</integer>
     <string name="config_SmartChargingSysfsNode" translatable="false">/sys/class/power_supply/battery/input_suspend</string>

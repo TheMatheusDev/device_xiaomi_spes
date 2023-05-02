@@ -14,7 +14,8 @@
      limitations under the License.
 -->
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.android.wifi.resources.overlay.spes">
+    package="com.android.wifi.resources.overlay.spes"
+    android:allowBackup="false">
 
     <overlay
         android:isStatic="true"

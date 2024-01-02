@@ -108,6 +108,7 @@ PRODUCT_PACKAGES += \
     SpesSettingsOverlay \
     SpesSystemUIOverlay \
     SpesWifiOverlay \
+    SpesWifiMainline \
     SettingsProvider2201117TGOverlay \
     SettingsProvider2201117TIOverlay \
     SettingsProvider2201117TYOverlay

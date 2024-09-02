@@ -25,7 +25,7 @@ TARGET_KERNEL_SOURCE := kernel/xiaomi/sm6225
 TARGET_OTA_ASSERT_DEVICE := spes,spesn
 
 # Properties
-TARGET_VENDOR_PROP += $(DEVICE_PATH)/vendor.prop
+TARGET_VENDOR_PROP += $(DEVICE_PATH)/configs/props/vendor.prop
 
 # Inherit from sm6225-common
 include device/xiaomi/sm6225-common/BoardConfigCommon.mk

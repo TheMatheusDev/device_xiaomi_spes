@@ -17,6 +17,10 @@ ODM_MANIFEST_K7TN_FILES := $(DEVICE_PATH)/manifest_k7tn.xml
 TARGET_INIT_VENDOR_LIB := //$(DEVICE_PATH):init_xiaomi_spes
 TARGET_RECOVERY_DEVICE_MODULES := init_xiaomi_spes
 
+# Kernel
+TARGET_KERNEL_CONFIG := vendor/spes-perf_defconfig
+TARGET_KERNEL_SOURCE := kernel/xiaomi/sm6225
+
 # OTA assert
 TARGET_OTA_ASSERT_DEVICE := spes,spesn
 
